@@ -14,7 +14,7 @@ class AlamofireAdapter {
 }
 
 class AlamofireAdapterTests: XCTestCase {
-    func test_() {
+    func test_post_should_make_request_with_valid_url_and_method() {
         let url = makeUrl()
         let configuration = URLSessionConfiguration.default
         configuration.protocolClasses = [UrlProtocolStub.self]
