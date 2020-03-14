@@ -13,6 +13,7 @@
 		FA488E4C241D473B00A37153 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F7F2416F59B002DE683 /* Domain.framework */; };
 		FA488E4D241D473B00A37153 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F7F2416F59B002DE683 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA488E53241D479F00A37153 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E52241D479F00A37153 /* AlertView.swift */; };
+		FA488E58241D4A3500A37153 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E57241D4A3500A37153 /* EmailValidator.swift */; };
 		FA4E1F882416F600002DE683 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1F872416F600002DE683 /* AddAccount.swift */; };
 		FA4E1F8A2416F730002DE683 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1F892416F730002DE683 /* AccountModel.swift */; };
 		FA4E1F992416F772002DE683 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F902416F772002DE683 /* Data.framework */; };
@@ -152,6 +153,7 @@
 		FA488E42241D3E7A00A37153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA488E4A241D472200A37153 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
 		FA488E52241D479F00A37153 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FA488E57241D4A3500A37153 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		FA4E1F7F2416F59B002DE683 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E1F822416F59B002DE683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4E1F872416F600002DE683 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		FA488E34241D3E7A00A37153 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				FA488E56241D4A2800A37153 /* Validators */,
 				FA488E51241D479500A37153 /* Views */,
 				FA488E54241D47B300A37153 /* Presenters */,
 				FA488E36241D3E7A00A37153 /* Info.plist */,
@@ -292,6 +295,14 @@
 				FA488E40241D3E7A00A37153 /* SignUpPresenterTests.swift */,
 			);
 			path = Presenters;
+			sourceTree = "<group>";
+		};
+		FA488E56241D4A2800A37153 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FA488E57241D4A3500A37153 /* EmailValidator.swift */,
+			);
+			path = Validators;
 			sourceTree = "<group>";
 		};
 		FA4E1F652416F50C002DE683 = {
@@ -808,6 +819,7 @@
 			files = (
 				FA488E4B241D472200A37153 /* SignUpPresenter.swift in Sources */,
 				FA488E53241D479F00A37153 /* AlertView.swift in Sources */,
+				FA488E58241D4A3500A37153 /* EmailValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
