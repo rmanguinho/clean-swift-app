@@ -46,6 +46,11 @@
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
 		FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B28242143F0006935A2 /* SignUpViewModel.swift */; };
 		FAF26B2B24214438006935A2 /* SignUpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2A24214438006935A2 /* SignUpMapper.swift */; };
+		FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */; };
+		FAF26B322421459C006935A2 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */; };
+		FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B34242145CF006935A2 /* AddAccountSpy.swift */; };
+		FAF26B372421461B006935A2 /* LoadingViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B362421461B006935A2 /* LoadingViewSpy.swift */; };
+		FAF26B3A242146AD006935A2 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B39242146AD006935A2 /* TestFactories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +196,11 @@
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FAF26B2A24214438006935A2 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
+		FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSpy.swift; sourceTree = "<group>"; };
+		FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorSpy.swift; sourceTree = "<group>"; };
+		FAF26B34242145CF006935A2 /* AddAccountSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountSpy.swift; sourceTree = "<group>"; };
+		FAF26B362421461B006935A2 /* LoadingViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewSpy.swift; sourceTree = "<group>"; };
+		FAF26B39242146AD006935A2 /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +285,10 @@
 		FA488E3F241D3E7A00A37153 /* PresentationTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAF26B38242146A3006935A2 /* Helpers */,
+				FAF26B33242145C3006935A2 /* UseCases */,
+				FAF26B3024214591006935A2 /* Validators */,
+				FAF26B2D24214562006935A2 /* Views */,
 				FA488E55241D486B00A37153 /* Presenters */,
 				FA488E42241D3E7A00A37153 /* Info.plist */,
 			);
@@ -301,7 +315,7 @@
 		FA488E55241D486B00A37153 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				FA488E40241D3E7A00A37153 /* SignUpPresenterTests.swift */,
+				FAF26B2C24214506006935A2 /* SignUp */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -513,6 +527,47 @@
 				FAF26B2A24214438006935A2 /* SignUpMapper.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FAF26B2C24214506006935A2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FA488E40241D3E7A00A37153 /* SignUpPresenterTests.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FAF26B2D24214562006935A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */,
+				FAF26B362421461B006935A2 /* LoadingViewSpy.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAF26B3024214591006935A2 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		FAF26B33242145C3006935A2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B34242145CF006935A2 /* AddAccountSpy.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FAF26B38242146A3006935A2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B39242146AD006935A2 /* TestFactories.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -849,8 +904,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF26B372421461B006935A2 /* LoadingViewSpy.swift in Sources */,
+				FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */,
+				FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */,
 				FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */,
+				FAF26B322421459C006935A2 /* EmailValidatorSpy.swift in Sources */,
 				FA488E41241D3E7A00A37153 /* SignUpPresenterTests.swift in Sources */,
+				FAF26B3A242146AD006935A2 /* TestFactories.swift in Sources */,
 				FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
