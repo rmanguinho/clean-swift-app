@@ -42,6 +42,7 @@
 		FAE0B4AC241ACA2E0096A456 /* AddAccountIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4AB241ACA2E0096A456 /* AddAccountIntegrationTests.swift */; };
 		FAE0B4AE241ACA2E0096A456 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F902416F772002DE683 /* Data.framework */; };
 		FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
+		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -830,6 +831,7 @@
 			files = (
 				FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */,
 				FA488E41241D3E7A00A37153 /* SignUpPresenterTests.swift in Sources */,
+				FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
