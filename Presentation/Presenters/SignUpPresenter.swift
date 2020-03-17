@@ -25,9 +25,9 @@ public final class SignUpPresenter {
         } else if viewModel.passwordConfirmation == nil || viewModel.passwordConfirmation!.isEmpty {
             return "O campo Confirmar Senha é obrigatório"
         } else if viewModel.password != viewModel.passwordConfirmation {
-            return "Falha ao confirmar senha"
+            return "O campo Confirmar Senha é inválido"
         } else if !emailValidator.isValid(email: viewModel.email!) {
-            return "Email inválido"
+            return "O campo Email é inválido"
         }
         return nil
     }
