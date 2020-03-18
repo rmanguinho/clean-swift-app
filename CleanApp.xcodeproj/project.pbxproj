@@ -631,9 +631,8 @@
 		FAF26B6B24216E46006935A2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FAF26B8C2422610C006935A2 /* Scenes */,
 				FAF26B6D24216E46006935A2 /* Info.plist */,
-				FAF26B862421710F006935A2 /* SignUpViewController.swift */,
-				FAF26B8824217131006935A2 /* SignUp.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -641,10 +640,43 @@
 		FAF26B7624216E46006935A2 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				FAF26B7724216E46006935A2 /* SignUpViewControllerTests.swift */,
+				FAF26B8D24226119006935A2 /* Scenes */,
 				FAF26B7924216E46006935A2 /* Info.plist */,
 			);
 			path = UITests;
+			sourceTree = "<group>";
+		};
+		FAF26B8A242260CF006935A2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B862421710F006935A2 /* SignUpViewController.swift */,
+				FAF26B8824217131006935A2 /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FAF26B8B242260DC006935A2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B7724216E46006935A2 /* SignUpViewControllerTests.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FAF26B8C2422610C006935A2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B8A242260CF006935A2 /* SignUp */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FAF26B8D24226119006935A2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B8B242260DC006935A2 /* SignUp */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
