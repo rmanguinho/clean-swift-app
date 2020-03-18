@@ -57,6 +57,7 @@
 		FAF26B8224216F28006935A2 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAF26B872421710F006935A2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B862421710F006935A2 /* SignUpViewController.swift */; };
 		FAF26B8924217131006935A2 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF26B8824217131006935A2 /* SignUp.storyboard */; };
+		FAF26B9024226159006935A2 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B8F24226159006935A2 /* TestExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +240,7 @@
 		FAF26B7924216E46006935A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF26B862421710F006935A2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FAF26B8824217131006935A2 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		FAF26B8F24226159006935A2 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +642,7 @@
 		FAF26B7624216E46006935A2 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				FAF26B8E24226143006935A2 /* Helpers */,
 				FAF26B8D24226119006935A2 /* Scenes */,
 				FAF26B7924216E46006935A2 /* Info.plist */,
 			);
@@ -677,6 +680,14 @@
 				FAF26B8B242260DC006935A2 /* SignUp */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FAF26B8E24226143006935A2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B8F24226159006935A2 /* TestExtensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1167,6 +1178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF26B7824216E46006935A2 /* SignUpViewControllerTests.swift in Sources */,
+				FAF26B9024226159006935A2 /* TestExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
