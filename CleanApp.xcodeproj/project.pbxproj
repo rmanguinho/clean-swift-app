@@ -43,6 +43,10 @@
 		FAE0B4AE241ACA2E0096A456 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F902416F772002DE683 /* Data.framework */; };
 		FAE15B8E24228D0F00362B4D /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15B8D24228D0F00362B4D /* UIViewControllerExtensions.swift */; };
 		FAE15B9024228DE400362B4D /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15B8F24228DE400362B4D /* Storyboarded.swift */; };
+		FAE15BC024229C2400362B4D /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
+		FAE15BC524229C2400362B4D /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */; };
+		FAE15BCE24229C9900362B4D /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; };
+		FAE15BCF24229C9900362B4D /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
@@ -126,6 +130,20 @@
 			remoteGlobalIDString = FA8752BF241839EE00EB759B;
 			remoteInfo = Infra;
 		};
+		FAE15BC124229C2400362B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4E1F662416F50C002DE683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE15BB624229C2400362B4D;
+			remoteInfo = Validation;
+		};
+		FAE15BD024229C9900362B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4E1F662416F50C002DE683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA488E32241D3E7A00A37153;
+			remoteInfo = Presentation;
+		};
 		FAF26B7424216E46006935A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA4E1F662416F50C002DE683 /* Project object */;
@@ -172,6 +190,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FA8752D824183AC000EB759B /* Data.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BD224229C9900362B4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAE15BCF24229C9900362B4D /* Presentation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +258,11 @@
 		FAE0B4AD241ACA2E0096A456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE15B8D24228D0F00362B4D /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		FAE15B8F24228DE400362B4D /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		FAE15BB724229C2400362B4D /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE15BBA24229C2400362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE15BBF24229C2400362B4D /* ValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapterTests.swift; sourceTree = "<group>"; };
+		FAE15BC624229C2400362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FAF26B2A24214438006935A2 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
@@ -309,6 +343,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE0B4AE241ACA2E0096A456 /* Data.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BB424229C2400362B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE15BCE24229C9900362B4D /* Presentation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BBC24229C2400362B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE15BC024229C2400362B4D /* Validation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +451,8 @@
 				FA488E3F241D3E7A00A37153 /* PresentationTests */,
 				FAF26B6B24216E46006935A2 /* UI */,
 				FAF26B7624216E46006935A2 /* UITests */,
+				FAE15BB824229C2400362B4D /* Validation */,
+				FAE15BC324229C2400362B4D /* ValidationTests */,
 				FA4E1F702416F50C002DE683 /* Products */,
 				FA4E1FA72416F79F002DE683 /* Frameworks */,
 			);
@@ -419,6 +471,8 @@
 				FA488E3B241D3E7A00A37153 /* PresentationTests.xctest */,
 				FAF26B6A24216E46006935A2 /* UI.framework */,
 				FAF26B7224216E46006935A2 /* UITests.xctest */,
+				FAE15BB724229C2400362B4D /* Validation.framework */,
+				FAE15BBF24229C2400362B4D /* ValidationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -592,6 +646,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		FAE15BB824229C2400362B4D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE15BBA24229C2400362B4D /* Info.plist */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		FAE15BC324229C2400362B4D /* ValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */,
+				FAE15BC624229C2400362B4D /* Info.plist */,
+			);
+			path = ValidationTests;
+			sourceTree = "<group>";
+		};
 		FAF26B27242143D9006935A2 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -729,6 +800,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FA8752BB241839EE00EB759B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BB224229C2400362B4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,6 +978,44 @@
 			productReference = FAE0B4A9241ACA2E0096A456 /* UseCasesIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FAE15BB624229C2400362B4D /* Validation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE15BCC24229C2400362B4D /* Build configuration list for PBXNativeTarget "Validation" */;
+			buildPhases = (
+				FAE15BB224229C2400362B4D /* Headers */,
+				FAE15BB324229C2400362B4D /* Sources */,
+				FAE15BB424229C2400362B4D /* Frameworks */,
+				FAE15BB524229C2400362B4D /* Resources */,
+				FAE15BD224229C9900362B4D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE15BD124229C9900362B4D /* PBXTargetDependency */,
+			);
+			name = Validation;
+			productName = Validation;
+			productReference = FAE15BB724229C2400362B4D /* Validation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAE15BBE24229C2400362B4D /* ValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE15BCD24229C2400362B4D /* Build configuration list for PBXNativeTarget "ValidationTests" */;
+			buildPhases = (
+				FAE15BBB24229C2400362B4D /* Sources */,
+				FAE15BBC24229C2400362B4D /* Frameworks */,
+				FAE15BBD24229C2400362B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE15BC224229C2400362B4D /* PBXTargetDependency */,
+			);
+			name = ValidationTests;
+			productName = ValidationTests;
+			productReference = FAE15BBF24229C2400362B4D /* ValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAF26B6924216E46006935A2 /* UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF26B7F24216E46006935A2 /* Build configuration list for PBXNativeTarget "UI" */;
@@ -976,6 +1092,12 @@
 					FAE0B4A8241ACA2E0096A456 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					FAE15BB624229C2400362B4D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FAE15BBE24229C2400362B4D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					FAF26B6924216E46006935A2 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
@@ -1011,6 +1133,8 @@
 				FA488E3A241D3E7A00A37153 /* PresentationTests */,
 				FAF26B6924216E46006935A2 /* UI */,
 				FAF26B7124216E46006935A2 /* UITests */,
+				FAE15BB624229C2400362B4D /* Validation */,
+				FAE15BBE24229C2400362B4D /* ValidationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1066,6 +1190,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAE0B4A7241ACA2E0096A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BB524229C2400362B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BBD24229C2400362B4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1179,6 +1317,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAE15BB324229C2400362B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE15BBB24229C2400362B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE15BC524229C2400362B4D /* EmailValidatorAdapterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAF26B6624216E46006935A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1245,6 +1398,16 @@
 			isa = PBXTargetDependency;
 			target = FA8752BF241839EE00EB759B /* Infra */;
 			targetProxy = FAE0B4B6241ACA400096A456 /* PBXContainerItemProxy */;
+		};
+		FAE15BC224229C2400362B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE15BB624229C2400362B4D /* Validation */;
+			targetProxy = FAE15BC124229C2400362B4D /* PBXContainerItemProxy */;
+		};
+		FAE15BD124229C9900362B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA488E32241D3E7A00A37153 /* Presentation */;
+			targetProxy = FAE15BD024229C9900362B4D /* PBXContainerItemProxy */;
 		};
 		FAF26B7524216E46006935A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1765,6 +1928,98 @@
 			};
 			name = Release;
 		};
+		FAE15BC824229C2400362B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Validation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.Validation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAE15BC924229C2400362B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Validation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.Validation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAE15BCA24229C2400362B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAE15BCB24229C2400362B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		FAF26B7B24216E46006935A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1787,7 +2042,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1815,7 +2070,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1836,7 +2091,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1857,7 +2112,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1942,6 +2197,24 @@
 			buildConfigurations = (
 				FAE0B4B2241ACA2E0096A456 /* Debug */,
 				FAE0B4B3241ACA2E0096A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE15BCC24229C2400362B4D /* Build configuration list for PBXNativeTarget "Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE15BC824229C2400362B4D /* Debug */,
+				FAE15BC924229C2400362B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE15BCD24229C2400362B4D /* Build configuration list for PBXNativeTarget "ValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE15BCA24229C2400362B4D /* Debug */,
+				FAE15BCB24229C2400362B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
