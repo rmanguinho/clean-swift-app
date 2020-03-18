@@ -47,6 +47,7 @@
 		FAE15BC524229C2400362B4D /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */; };
 		FAE15BCE24229C9900362B4D /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; };
 		FAE15BCF24229C9900362B4D /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE15BD424229F1A00362B4D /* EmailValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */; };
 		FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
@@ -263,6 +264,7 @@
 		FAE15BBF24229C2400362B4D /* ValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapterTests.swift; sourceTree = "<group>"; };
 		FAE15BC624229C2400362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapter.swift; sourceTree = "<group>"; };
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FAF26B2A24214438006935A2 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
@@ -649,6 +651,7 @@
 		FAE15BB824229C2400362B4D /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */,
 				FAE15BBA24229C2400362B4D /* Info.plist */,
 			);
 			path = Validation;
@@ -1094,6 +1097,7 @@
 					};
 					FAE15BB624229C2400362B4D = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					FAE15BBE24229C2400362B4D = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -1321,6 +1325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE15BD424229F1A00362B4D /* EmailValidatorAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1931,6 +1936,7 @@
 		FAE15BC824229C2400362B4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1950,6 +1956,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1957,6 +1964,7 @@
 		FAE15BC924229C2400362B4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1983,6 +1991,7 @@
 		FAE15BCA24229C2400362B4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ValidationTests/Info.plist;
@@ -2003,6 +2012,7 @@
 		FAE15BCB24229C2400362B4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ValidationTests/Info.plist;
