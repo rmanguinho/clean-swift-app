@@ -1,1 +1,1 @@
-API_BASE_URL = http:/$()/localhost:5050/api
+API_BASE_URL = https:/$()/clean-node-api.herokuapp.com/api
