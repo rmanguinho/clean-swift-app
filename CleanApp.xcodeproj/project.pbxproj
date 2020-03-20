@@ -70,7 +70,6 @@
 		FAE15C4C2422A8E300362B4D /* UI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAF26B6A24216E46006935A2 /* UI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAE15C4F2422A8E300362B4D /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
 		FAE15C502422A8E300362B4D /* Validation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FAE15C562422A95200362B4D /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15C552422A95200362B4D /* ControllerFactory.swift */; };
 		FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
@@ -365,7 +364,6 @@
 		FAE15C292422A81B00362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE15C2E2422A81B00362B4D /* MainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE15C342422A81B00362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE15C552422A95200362B4D /* ControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FAF26B2A24214438006935A2 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
@@ -834,7 +832,6 @@
 		FAE15C542422A94200362B4D /* Factories */ = {
 			isa = PBXGroup;
 			children = (
-				FAE15C552422A95200362B4D /* ControllerFactory.swift */,
 				FA4E46CB242525CF0022CD9C /* UseCaseFactory.swift */,
 			);
 			path = Factories;
@@ -1585,7 +1582,6 @@
 			files = (
 				FA4E46CC242525CF0022CD9C /* UseCaseFactory.swift in Sources */,
 				FAE15C1C2422A81A00362B4D /* AppDelegate.swift in Sources */,
-				FAE15C562422A95200362B4D /* ControllerFactory.swift in Sources */,
 				FAE15C1E2422A81A00362B4D /* SceneDelegate.swift in Sources */,
 				FA4E46D624252AC10022CD9C /* WeakVarProxy.swift in Sources */,
 				FA4E46CF2425263F0022CD9C /* SignUpComposer.swift in Sources */,
