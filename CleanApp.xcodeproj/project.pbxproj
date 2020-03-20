@@ -37,6 +37,7 @@
 		FA4E46D3242528490022CD9C /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FA4E46D624252AC10022CD9C /* WeakVarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46D524252AC10022CD9C /* WeakVarProxy.swift */; };
 		FA4E46DB24252FA30022CD9C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46DA24252FA30022CD9C /* Environment.swift */; };
+		FA4E46E52425600A0022CD9C /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B39242146AD006935A2 /* TestFactories.swift */; };
 		FA8752C9241839EE00EB759B /* Infra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8752C0241839EE00EB759B /* Infra.framework */; };
 		FA8752CE241839EE00EB759B /* AlamofireAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8752CD241839EE00EB759B /* AlamofireAdapterTests.swift */; };
 		FA8752D724183AC000EB759B /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F902416F772002DE683 /* Data.framework */; };
@@ -1618,6 +1619,7 @@
 			files = (
 				FA4E46D2242528020022CD9C /* AddAccountSpy.swift in Sources */,
 				FA4E46D3242528490022CD9C /* TextExtensions.swift in Sources */,
+				FA4E46E52425600A0022CD9C /* TestFactories.swift in Sources */,
 				FA4E46D1242527980022CD9C /* SignUpComposerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
