@@ -1,5 +1,5 @@
 import Foundation
-import Presentation
+import Validation
 
 public final class EmailValidatorAdapter: EmailValidator {
     private let pattern = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"

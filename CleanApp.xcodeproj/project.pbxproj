@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2B192D242BD852007DA092 /* RequiredFieldValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B192C242BD852007DA092 /* RequiredFieldValidationTests.swift */; };
+		FA2B1931242BDB84007DA092 /* RequiredFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1930242BDB84007DA092 /* RequiredFieldValidation.swift */; };
+		FA2B1932242BDC2F007DA092 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
+		FA2B1936242BDCCA007DA092 /* CompareFieldsValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1935242BDCCA007DA092 /* CompareFieldsValidationTests.swift */; };
+		FA2B1938242BDD17007DA092 /* CompareFieldsValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1937242BDD17007DA092 /* CompareFieldsValidation.swift */; };
+		FA2B193E242BE919007DA092 /* EmailValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B193D242BE919007DA092 /* EmailValidationTests.swift */; };
+		FA2B1940242BEBCE007DA092 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B193F242BEBCE007DA092 /* EmailValidation.swift */; };
+		FA2B1942242BEC6B007DA092 /* ValidationCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1941242BEC6B007DA092 /* ValidationCompositeTests.swift */; };
+		FA2B1944242BF042007DA092 /* ValidationComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1943242BF042007DA092 /* ValidationComposite.swift */; };
+		FA2B1947242BF085007DA092 /* ValidationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1946242BF085007DA092 /* ValidationSpy.swift */; };
+		FA2B1948242BFD5F007DA092 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */; };
 		FA488E3C241D3E7A00A37153 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; };
 		FA488E41241D3E7A00A37153 /* SignUpPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E40241D3E7A00A37153 /* SignUpPresenterTests.swift */; };
 		FA488E4B241D472200A37153 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E4A241D472200A37153 /* SignUpPresenter.swift */; };
 		FA488E4C241D473B00A37153 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F7F2416F59B002DE683 /* Domain.framework */; };
 		FA488E4D241D473B00A37153 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F7F2416F59B002DE683 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA488E53241D479F00A37153 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E52241D479F00A37153 /* AlertView.swift */; };
-		FA488E58241D4A3500A37153 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E57241D4A3500A37153 /* EmailValidator.swift */; };
 		FA4E1F882416F600002DE683 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1F872416F600002DE683 /* AddAccount.swift */; };
 		FA4E1F8A2416F730002DE683 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1F892416F730002DE683 /* AccountModel.swift */; };
 		FA4E1F992416F772002DE683 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4E1F902416F772002DE683 /* Data.framework */; };
@@ -46,6 +56,14 @@
 		FA8752DC24183ADD00EB759B /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FA8752DD24183AE600EB759B /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC324171A98002DE683 /* TestFactories.swift */; };
 		FA8752E024183B5300EB759B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA8752DF24183B5300EB759B /* Alamofire */; };
+		FAA92B69242BCA1600DF55D0 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA92B68242BCA1600DF55D0 /* Validation.swift */; };
+		FAA92B6A242BCA4300DF55D0 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E57241D4A3500A37153 /* EmailValidator.swift */; };
+		FAA92B6B242BCA5B00DF55D0 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */; };
+		FAA92B6D242BCA6F00DF55D0 /* ValidationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */; };
+		FAA92B6F242BCAC500DF55D0 /* EmailValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */; };
+		FAA92B71242BCADC00DF55D0 /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */; };
+		FAA92B72242BCAFB00DF55D0 /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
+		FAA92B73242BCAFB00DF55D0 /* Validation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAE0B4A0241AB9840096A456 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */; };
 		FAE0B4A4241ABA330096A456 /* UrlProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */; };
 		FAE0B4AC241ACA2E0096A456 /* AddAccountIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4AB241ACA2E0096A456 /* AddAccountIntegrationTests.swift */; };
@@ -53,10 +71,8 @@
 		FAE15B8E24228D0F00362B4D /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15B8D24228D0F00362B4D /* UIViewControllerExtensions.swift */; };
 		FAE15B9024228DE400362B4D /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15B8F24228DE400362B4D /* Storyboarded.swift */; };
 		FAE15BC024229C2400362B4D /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
-		FAE15BC524229C2400362B4D /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */; };
 		FAE15BCE24229C9900362B4D /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; };
 		FAE15BCF24229C9900362B4D /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA488E33241D3E7A00A37153 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FAE15BD424229F1A00362B4D /* EmailValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */; };
 		FAE15C1C2422A81A00362B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15C1B2422A81A00362B4D /* AppDelegate.swift */; };
 		FAE15C1E2422A81A00362B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15C1D2422A81A00362B4D /* SceneDelegate.swift */; };
 		FAE15C252422A81B00362B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE15C242422A81B00362B4D /* Assets.xcassets */; };
@@ -79,7 +95,6 @@
 		FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B28242143F0006935A2 /* SignUpViewModel.swift */; };
 		FAF26B2B24214438006935A2 /* SignUpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2A24214438006935A2 /* SignUpMapper.swift */; };
 		FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */; };
-		FAF26B322421459C006935A2 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */; };
 		FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B34242145CF006935A2 /* AddAccountSpy.swift */; };
 		FAF26B372421461B006935A2 /* LoadingViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B362421461B006935A2 /* LoadingViewSpy.swift */; };
 		FAF26B3A242146AD006935A2 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B39242146AD006935A2 /* TestFactories.swift */; };
@@ -134,6 +149,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = FA4E1F8F2416F772002DE683;
 			remoteInfo = Data;
+		};
+		FAA92B74242BCAFB00DF55D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4E1F662416F50C002DE683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE15BB624229C2400362B4D;
+			remoteInfo = Validation;
 		};
 		FAE0B4AF241ACA2E0096A456 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -265,6 +287,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FA8752D824183AC000EB759B /* Data.framework in Embed Frameworks */,
+				FAA92B73242BCAFB00DF55D0 /* Validation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +333,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA2B192C242BD852007DA092 /* RequiredFieldValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidationTests.swift; sourceTree = "<group>"; };
+		FA2B1930242BDB84007DA092 /* RequiredFieldValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidation.swift; sourceTree = "<group>"; };
+		FA2B1935242BDCCA007DA092 /* CompareFieldsValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareFieldsValidationTests.swift; sourceTree = "<group>"; };
+		FA2B1937242BDD17007DA092 /* CompareFieldsValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareFieldsValidation.swift; sourceTree = "<group>"; };
+		FA2B193D242BE919007DA092 /* EmailValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationTests.swift; sourceTree = "<group>"; };
+		FA2B193F242BEBCE007DA092 /* EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
+		FA2B1941242BEC6B007DA092 /* ValidationCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationCompositeTests.swift; sourceTree = "<group>"; };
+		FA2B1943242BF042007DA092 /* ValidationComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationComposite.swift; sourceTree = "<group>"; };
+		FA2B1946242BF085007DA092 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		FA488E33241D3E7A00A37153 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA488E36241D3E7A00A37153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA488E3B241D3E7A00A37153 /* PresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -350,6 +382,8 @@
 		FA8752C8241839EE00EB759B /* InfraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8752CD241839EE00EB759B /* AlamofireAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapterTests.swift; sourceTree = "<group>"; };
 		FA8752CF241839EE00EB759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA92B68242BCA1600DF55D0 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
 		FAE0B4A9241ACA2E0096A456 /* UseCasesIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseCasesIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -433,6 +467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA92B72242BCAFB00DF55D0 /* Validation.framework in Frameworks */,
 				FA8752D724183AC000EB759B /* Data.framework in Frameworks */,
 				FA8752E024183B5300EB759B /* Alamofire in Frameworks */,
 			);
@@ -509,6 +544,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2B192E242BDB6F007DA092 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA488E57241D4A3500A37153 /* EmailValidator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA2B192F242BDB7B007DA092 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B1930242BDB84007DA092 /* RequiredFieldValidation.swift */,
+				FA2B1937242BDD17007DA092 /* CompareFieldsValidation.swift */,
+				FA2B193F242BEBCE007DA092 /* EmailValidation.swift */,
+				FA2B1943242BF042007DA092 /* ValidationComposite.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		FA2B1933242BDCA7007DA092 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */,
+				FA2B1946242BF085007DA092 /* ValidationSpy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA2B1934242BDCB0007DA092 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B192C242BD852007DA092 /* RequiredFieldValidationTests.swift */,
+				FA2B1935242BDCCA007DA092 /* CompareFieldsValidationTests.swift */,
+				FA2B193D242BE919007DA092 /* EmailValidationTests.swift */,
+				FA2B1941242BEC6B007DA092 /* ValidationCompositeTests.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
 		FA488E34241D3E7A00A37153 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,7 +635,7 @@
 		FA488E56241D4A2800A37153 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				FA488E57241D4A3500A37153 /* EmailValidator.swift */,
+				FAA92B68242BCA1600DF55D0 /* Validation.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -770,6 +844,7 @@
 		FA8752C1241839EE00EB759B /* Infra */ = {
 			isa = PBXGroup;
 			children = (
+				FAA92B6E242BCAB100DF55D0 /* Validators */,
 				FAE0B4A1241AB9D30096A456 /* Http */,
 				FA8752C3241839EE00EB759B /* Info.plist */,
 			);
@@ -779,10 +854,27 @@
 		FA8752CC241839EE00EB759B /* InfraTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAA92B70242BCACB00DF55D0 /* Validators */,
 				FAE0B4A2241ABA1E0096A456 /* Http */,
 				FA8752CF241839EE00EB759B /* Info.plist */,
 			);
 			path = InfraTests;
+			sourceTree = "<group>";
+		};
+		FAA92B6E242BCAB100DF55D0 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		FAA92B70242BCACB00DF55D0 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */,
+			);
+			path = Validators;
 			sourceTree = "<group>";
 		};
 		FAE0B4A1241AB9D30096A456 /* Http */ = {
@@ -823,7 +915,8 @@
 		FAE15BB824229C2400362B4D /* Validation */ = {
 			isa = PBXGroup;
 			children = (
-				FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */,
+				FA2B192F242BDB7B007DA092 /* Validators */,
+				FA2B192E242BDB6F007DA092 /* Protocols */,
 				FAE15BBA24229C2400362B4D /* Info.plist */,
 			);
 			path = Validation;
@@ -832,7 +925,8 @@
 		FAE15BC324229C2400362B4D /* ValidationTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */,
+				FA2B1933242BDCA7007DA092 /* Protocols */,
+				FA2B1934242BDCB0007DA092 /* Validators */,
 				FAE15BC624229C2400362B4D /* Info.plist */,
 			);
 			path = ValidationTests;
@@ -902,7 +996,7 @@
 		FAF26B3024214591006935A2 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */,
+				FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -1140,6 +1234,7 @@
 			);
 			dependencies = (
 				FA8752DA24183AC000EB759B /* PBXTargetDependency */,
+				FAA92B75242BCAFB00DF55D0 /* PBXTargetDependency */,
 			);
 			name = Infra;
 			packageProductDependencies = (
@@ -1515,7 +1610,7 @@
 				FAF26B2624213503006935A2 /* LoadingView.swift in Sources */,
 				FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */,
 				FA488E53241D479F00A37153 /* AlertView.swift in Sources */,
-				FA488E58241D4A3500A37153 /* EmailValidator.swift in Sources */,
+				FAA92B69242BCA1600DF55D0 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1527,8 +1622,8 @@
 				FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */,
 				FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */,
 				FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */,
-				FAF26B322421459C006935A2 /* EmailValidatorSpy.swift in Sources */,
 				FA488E41241D3E7A00A37153 /* SignUpPresenterTests.swift in Sources */,
+				FAA92B6D242BCA6F00DF55D0 /* ValidationSpy.swift in Sources */,
 				FAF26B3A242146AD006935A2 /* TestFactories.swift in Sources */,
 				FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */,
 			);
@@ -1573,6 +1668,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE0B4A0241AB9840096A456 /* AlamofireAdapter.swift in Sources */,
+				FAA92B6F242BCAC500DF55D0 /* EmailValidatorAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1580,6 +1676,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA92B71242BCADC00DF55D0 /* EmailValidatorAdapterTests.swift in Sources */,
 				FA8752DD24183AE600EB759B /* TestFactories.swift in Sources */,
 				FA8752DC24183ADD00EB759B /* TextExtensions.swift in Sources */,
 				FA8752CE241839EE00EB759B /* AlamofireAdapterTests.swift in Sources */,
@@ -1599,7 +1696,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE15BD424229F1A00362B4D /* EmailValidatorAdapter.swift in Sources */,
+				FA2B1931242BDB84007DA092 /* RequiredFieldValidation.swift in Sources */,
+				FA2B1938242BDD17007DA092 /* CompareFieldsValidation.swift in Sources */,
+				FA2B1944242BF042007DA092 /* ValidationComposite.swift in Sources */,
+				FAA92B6A242BCA4300DF55D0 /* EmailValidator.swift in Sources */,
+				FA2B1940242BEBCE007DA092 /* EmailValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1607,7 +1708,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE15BC524229C2400362B4D /* EmailValidatorAdapterTests.swift in Sources */,
+				FA2B192D242BD852007DA092 /* RequiredFieldValidationTests.swift in Sources */,
+				FA2B1936242BDCCA007DA092 /* CompareFieldsValidationTests.swift in Sources */,
+				FA2B1942242BEC6B007DA092 /* ValidationCompositeTests.swift in Sources */,
+				FA2B1947242BF085007DA092 /* ValidationSpy.swift in Sources */,
+				FA2B193E242BE919007DA092 /* EmailValidationTests.swift in Sources */,
+				FA2B1932242BDC2F007DA092 /* TextExtensions.swift in Sources */,
+				FAA92B6B242BCA5B00DF55D0 /* EmailValidatorSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1631,6 +1738,7 @@
 			files = (
 				FA4E46D2242528020022CD9C /* AddAccountSpy.swift in Sources */,
 				FA4E46D3242528490022CD9C /* TextExtensions.swift in Sources */,
+				FA2B1948242BFD5F007DA092 /* EmailValidatorSpy.swift in Sources */,
 				FA4E46E52425600A0022CD9C /* TestFactories.swift in Sources */,
 				FA4E46D1242527980022CD9C /* SignUpComposerTests.swift in Sources */,
 			);
@@ -1687,6 +1795,11 @@
 			isa = PBXTargetDependency;
 			target = FA4E1F8F2416F772002DE683 /* Data */;
 			targetProxy = FA8752D924183AC000EB759B /* PBXContainerItemProxy */;
+		};
+		FAA92B75242BCAFB00DF55D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE15BB624229C2400362B4D /* Validation */;
+			targetProxy = FAA92B74242BCAFB00DF55D0 /* PBXContainerItemProxy */;
 		};
 		FAE0B4B0241ACA2E0096A456 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
