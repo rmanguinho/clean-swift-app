@@ -93,7 +93,6 @@
 		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
 		FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B28242143F0006935A2 /* SignUpViewModel.swift */; };
-		FAF26B2B24214438006935A2 /* SignUpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2A24214438006935A2 /* SignUpMapper.swift */; };
 		FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */; };
 		FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B34242145CF006935A2 /* AddAccountSpy.swift */; };
 		FAF26B372421461B006935A2 /* LoadingViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B362421461B006935A2 /* LoadingViewSpy.swift */; };
@@ -407,7 +406,6 @@
 		FAE15C342422A81B00362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
-		FAF26B2A24214438006935A2 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
 		FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSpy.swift; sourceTree = "<group>"; };
 		FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorSpy.swift; sourceTree = "<group>"; };
 		FAF26B34242145CF006935A2 /* AddAccountSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountSpy.swift; sourceTree = "<group>"; };
@@ -971,7 +969,6 @@
 			children = (
 				FA488E4A241D472200A37153 /* SignUpPresenter.swift */,
 				FAF26B28242143F0006935A2 /* SignUpViewModel.swift */,
-				FAF26B2A24214438006935A2 /* SignUpMapper.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -1605,7 +1602,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF26B2B24214438006935A2 /* SignUpMapper.swift in Sources */,
 				FA488E4B241D472200A37153 /* SignUpPresenter.swift in Sources */,
 				FAF26B2624213503006935A2 /* LoadingView.swift in Sources */,
 				FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */,
