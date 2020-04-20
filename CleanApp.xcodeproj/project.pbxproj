@@ -72,6 +72,7 @@
 		FAA92B71242BCADC00DF55D0 /* EmailValidatorAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */; };
 		FAA92B72242BCAFB00DF55D0 /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
 		FAA92B73242BCAFB00DF55D0 /* Validation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAB733AA244E1335008E816D /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB733A9244E1335008E816D /* Authentication.swift */; };
 		FAE0B4A0241AB9840096A456 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */; };
 		FAE0B4A4241ABA330096A456 /* UrlProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */; };
 		FAE0B4AC241ACA2E0096A456 /* AddAccountIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4AB241ACA2E0096A456 /* AddAccountIntegrationTests.swift */; };
@@ -399,6 +400,7 @@
 		FAA44FD6244DF862001748DB /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		FAA92B68242BCA1600DF55D0 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
+		FAB733A9244E1335008E816D /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
 		FAE0B4A9241ACA2E0096A456 /* UseCasesIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseCasesIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -741,6 +743,7 @@
 			isa = PBXGroup;
 			children = (
 				FA4E1F872416F600002DE683 /* AddAccount.swift */,
+				FAB733A9244E1335008E816D /* Authentication.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -1689,6 +1692,7 @@
 				FA4E1FAE24170443002DE683 /* Model.swift in Sources */,
 				FA4E1F882416F600002DE683 /* AddAccount.swift in Sources */,
 				FA4E1FBA241707FF002DE683 /* DomainError.swift in Sources */,
+				FAB733AA244E1335008E816D /* Authentication.swift in Sources */,
 				FA4E1F8A2416F730002DE683 /* AccountModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
