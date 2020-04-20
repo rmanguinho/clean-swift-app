@@ -25,7 +25,7 @@ class AddAccountIntegrationTests: XCTestCase {
             case .failure(let error) where error == .emailInUse:
                 XCTAssertNotNil(error)
             default:
-                XCTFail("Expect success got \(result) instead")
+                XCTFail("Expect emailInUse error got \(result) instead")
             }
             exp2.fulfill()
         }
