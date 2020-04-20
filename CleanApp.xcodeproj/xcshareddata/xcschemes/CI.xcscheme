@@ -71,7 +71,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAE15C182422A81A00362B4D"
-               BuildableName = "Main.app"
+               BuildableName = "4Dev.app"
                BlueprintName = "Main"
                ReferencedContainer = "container:CleanApp.xcodeproj">
             </BuildableReference>
@@ -146,7 +146,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAE15C182422A81A00362B4D"
-            BuildableName = "Main.app"
+            BuildableName = "4Dev.app"
             BlueprintName = "Main"
             ReferencedContainer = "container:CleanApp.xcodeproj">
          </BuildableReference>
