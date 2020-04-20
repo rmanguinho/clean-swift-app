@@ -433,7 +433,7 @@
 		FAE15BC424229C2400362B4D /* EmailValidatorAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapterTests.swift; sourceTree = "<group>"; };
 		FAE15BC624229C2400362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE15BD324229F1A00362B4D /* EmailValidatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapter.swift; sourceTree = "<group>"; };
-		FAE15C192422A81A00362B4D /* 4Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE15C192422A81A00362B4D /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE15C1B2422A81A00362B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE15C1D2422A81A00362B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAE15C242422A81B00362B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -714,7 +714,7 @@
 				FAF26B7224216E46006935A2 /* UITests.xctest */,
 				FAE15BB724229C2400362B4D /* Validation.framework */,
 				FAE15BBF24229C2400362B4D /* ValidationTests.xctest */,
-				FAE15C192422A81A00362B4D /* 4Dev.app */,
+				FAE15C192422A81A00362B4D /* Main.app */,
 				FAE15C2E2422A81B00362B4D /* MainTests.xctest */,
 			);
 			name = Products;
@@ -1457,7 +1457,7 @@
 			);
 			name = Main;
 			productName = Main;
-			productReference = FAE15C192422A81A00362B4D /* 4Dev.app */;
+			productReference = FAE15C192422A81A00362B4D /* Main.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FAE15C2D2422A81B00362B4D /* MainTests */ = {
@@ -2634,7 +2634,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.4dev;
-				PRODUCT_NAME = 4Dev;
+				PRODUCT_NAME = Main;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2652,7 +2652,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.4dev;
-				PRODUCT_NAME = 4Dev;
+				PRODUCT_NAME = Main;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
