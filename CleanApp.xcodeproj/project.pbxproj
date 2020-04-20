@@ -60,6 +60,7 @@
 		FA8752DC24183ADD00EB759B /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FA8752DD24183AE600EB759B /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC324171A98002DE683 /* TestFactories.swift */; };
 		FA8752E024183B5300EB759B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA8752DF24183B5300EB759B /* Alamofire */; };
+		FA9EB9E0244E33B300A230AB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EB9DF244E33B300A230AB /* Login.storyboard */; };
 		FAA44FC1244DECD5001748DB /* ApiUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC0244DECD5001748DB /* ApiUrlFactory.swift */; };
 		FAA44FC4244DED43001748DB /* AlamofireAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC3244DED43001748DB /* AlamofireAdapterFactory.swift */; };
 		FAA44FC8244DEE35001748DB /* EmailValidatorAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC7244DEE35001748DB /* EmailValidatorAdapterFactory.swift */; };
@@ -400,6 +401,7 @@
 		FA8752C8241839EE00EB759B /* InfraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8752CD241839EE00EB759B /* AlamofireAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapterTests.swift; sourceTree = "<group>"; };
 		FA8752CF241839EE00EB759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9EB9DF244E33B300A230AB /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FAA44FC0244DECD5001748DB /* ApiUrlFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUrlFactory.swift; sourceTree = "<group>"; };
 		FAA44FC3244DED43001748DB /* AlamofireAdapterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireAdapterFactory.swift; sourceTree = "<group>"; };
 		FAA44FC7244DEE35001748DB /* EmailValidatorAdapterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapterFactory.swift; sourceTree = "<group>"; };
@@ -903,6 +905,14 @@
 			path = InfraTests;
 			sourceTree = "<group>";
 		};
+		FA9EB9DE244E33AA00A230AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA9EB9DF244E33B300A230AB /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		FAA44FC2244DED01001748DB /* Http */ = {
 			isa = PBXGroup;
 			children = (
@@ -1147,6 +1157,7 @@
 		FAF26B8C2422610C006935A2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA9EB9DE244E33AA00A230AB /* Login */,
 				FAF26B8A242260CF006935A2 /* SignUp */,
 			);
 			path = Scenes;
@@ -1679,6 +1690,7 @@
 			files = (
 				FAF26B8924217131006935A2 /* SignUp.storyboard in Resources */,
 				FAA44FCE244DF41D001748DB /* Images.xcassets in Resources */,
+				FA9EB9E0244E33B300A230AB /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
