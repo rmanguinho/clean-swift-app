@@ -13,7 +13,10 @@ public final class RemoteAuthentication {
     public func auth(authenticationModel: AuthenticationModel, completion: @escaping (Authentication.Result) -> Void) {
         httpClient.post(to: url, with: authenticationModel.toData()) { result in
             switch result {
-            case .success: break
+            case .success(let data):
+                if let model: AccountModel = data?.toModel() {
+                    completion(.success(model))
+                }
             case .failure(let error):
                 switch error {
                 case .unauthorized: completion(.failure(.expiredSession))
