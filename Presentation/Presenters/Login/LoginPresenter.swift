@@ -28,7 +28,7 @@ public final class LoginPresenter {
                     errorMessage = "Algo inesperado aconteceu, tente novamente em alguns instantes."
                     }
                     self.alertView.showMessage(viewModel: AlertViewModel(title: "Erro", message: errorMessage))
-                case .success: break
+                case .success: self.alertView.showMessage(viewModel: AlertViewModel(title: "Sucesso", message: "Login feito com sucesso."))
                 }
             }
         }
