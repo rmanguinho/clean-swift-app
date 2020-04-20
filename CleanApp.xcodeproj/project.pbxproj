@@ -42,7 +42,7 @@
 		FA4E1FC924171B25002DE683 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FA4E46CC242525CF0022CD9C /* RemoteAddAccountFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46CB242525CF0022CD9C /* RemoteAddAccountFactory.swift */; };
 		FA4E46CF2425263F0022CD9C /* SignUpControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46CE2425263F0022CD9C /* SignUpControllerFactory.swift */; };
-		FA4E46D1242527980022CD9C /* SignUpFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46D0242527980022CD9C /* SignUpFactoryTests.swift */; };
+		FA4E46D1242527980022CD9C /* SignUpControllerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46D0242527980022CD9C /* SignUpControllerFactoryTests.swift */; };
 		FA4E46D2242528020022CD9C /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B34242145CF006935A2 /* AddAccountSpy.swift */; };
 		FA4E46D3242528490022CD9C /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FA4E46D624252AC10022CD9C /* WeakVarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46D524252AC10022CD9C /* WeakVarProxy.swift */; };
@@ -389,7 +389,7 @@
 		FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModelFactory.swift; sourceTree = "<group>"; };
 		FA4E46CB242525CF0022CD9C /* RemoteAddAccountFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountFactory.swift; sourceTree = "<group>"; };
 		FA4E46CE2425263F0022CD9C /* SignUpControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerFactory.swift; sourceTree = "<group>"; };
-		FA4E46D0242527980022CD9C /* SignUpFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFactoryTests.swift; sourceTree = "<group>"; };
+		FA4E46D0242527980022CD9C /* SignUpControllerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControllerFactoryTests.swift; sourceTree = "<group>"; };
 		FA4E46D524252AC10022CD9C /* WeakVarProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakVarProxy.swift; sourceTree = "<group>"; };
 		FA4E46D824252ECD0022CD9C /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		FA4E46D924252F370022CD9C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -857,12 +857,12 @@
 			path = Env;
 			sourceTree = "<group>";
 		};
-		FA4E46E424255DFF0022CD9C /* Composers */ = {
+		FA4E46E424255DFF0022CD9C /* Factories */ = {
 			isa = PBXGroup;
 			children = (
-				FA4E46D0242527980022CD9C /* SignUpFactoryTests.swift */,
+				FA4E46D0242527980022CD9C /* SignUpControllerFactoryTests.swift */,
 			);
-			path = Composers;
+			path = Factories;
 			sourceTree = "<group>";
 		};
 		FA4E46E6242564900022CD9C /* Decorators */ = {
@@ -1062,7 +1062,7 @@
 		FAE15C312422A81B00362B4D /* MainTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA4E46E424255DFF0022CD9C /* Composers */,
+				FA4E46E424255DFF0022CD9C /* Factories */,
 				FAE15C342422A81B00362B4D /* Info.plist */,
 			);
 			path = MainTests;
@@ -1867,7 +1867,7 @@
 				FA4E46D3242528490022CD9C /* TextExtensions.swift in Sources */,
 				FA2B1948242BFD5F007DA092 /* EmailValidatorSpy.swift in Sources */,
 				FA4E46E52425600A0022CD9C /* TestFactories.swift in Sources */,
-				FA4E46D1242527980022CD9C /* SignUpFactoryTests.swift in Sources */,
+				FA4E46D1242527980022CD9C /* SignUpControllerFactoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
