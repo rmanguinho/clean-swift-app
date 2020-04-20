@@ -59,6 +59,11 @@
 		FAA44FC1244DECD5001748DB /* ApiUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC0244DECD5001748DB /* ApiUrlFactory.swift */; };
 		FAA44FC4244DED43001748DB /* AlamofireAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC3244DED43001748DB /* AlamofireAdapterFactory.swift */; };
 		FAA44FC8244DEE35001748DB /* EmailValidatorAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC7244DEE35001748DB /* EmailValidatorAdapterFactory.swift */; };
+		FAA44FCE244DF41D001748DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA44FCD244DF41D001748DB /* Images.xcassets */; };
+		FAA44FD0244DF6A4001748DB /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FCF244DF6A4001748DB /* UIColorExtensions.swift */; };
+		FAA44FD2244DF6CC001748DB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FD1244DF6CC001748DB /* Color.swift */; };
+		FAA44FD5244DF781001748DB /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FD4244DF781001748DB /* RoundedTextField.swift */; };
+		FAA44FD7244DF862001748DB /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FD6244DF862001748DB /* NavigationController.swift */; };
 		FAA92B69242BCA1600DF55D0 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA92B68242BCA1600DF55D0 /* Validation.swift */; };
 		FAA92B6A242BCA4300DF55D0 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA488E57241D4A3500A37153 /* EmailValidator.swift */; };
 		FAA92B6B242BCA5B00DF55D0 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */; };
@@ -387,6 +392,11 @@
 		FAA44FC0244DECD5001748DB /* ApiUrlFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUrlFactory.swift; sourceTree = "<group>"; };
 		FAA44FC3244DED43001748DB /* AlamofireAdapterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireAdapterFactory.swift; sourceTree = "<group>"; };
 		FAA44FC7244DEE35001748DB /* EmailValidatorAdapterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapterFactory.swift; sourceTree = "<group>"; };
+		FAA44FCD244DF41D001748DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA44FCF244DF6A4001748DB /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		FAA44FD1244DF6CC001748DB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FAA44FD4244DF781001748DB /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		FAA44FD6244DF862001748DB /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		FAA92B68242BCA1600DF55D0 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
@@ -883,6 +893,23 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FAA44FCC244DF410001748DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA44FCD244DF41D001748DB /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAA44FD3244DF76D001748DB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAA44FD4244DF781001748DB /* RoundedTextField.swift */,
+				FAA44FD6244DF862001748DB /* NavigationController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		FAA92B6E242BCAB100DF55D0 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
@@ -929,7 +956,9 @@
 			isa = PBXGroup;
 			children = (
 				FAE15B8D24228D0F00362B4D /* UIViewControllerExtensions.swift */,
+				FAA44FCF244DF6A4001748DB /* UIColorExtensions.swift */,
 				FAE15B8F24228DE400362B4D /* Storyboarded.swift */,
+				FAA44FD1244DF6CC001748DB /* Color.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1042,7 +1071,9 @@
 		FAF26B6B24216E46006935A2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FAA44FCC244DF410001748DB /* Resources */,
 				FAE15B8C24228CF100362B4D /* Helpers */,
+				FAA44FD3244DF76D001748DB /* Components */,
 				FAF26B8C2422610C006935A2 /* Scenes */,
 				FAF26B6D24216E46006935A2 /* Info.plist */,
 			);
@@ -1610,6 +1641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF26B8924217131006935A2 /* SignUp.storyboard in Resources */,
+				FAA44FCE244DF41D001748DB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1773,8 +1805,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE15B8E24228D0F00362B4D /* UIViewControllerExtensions.swift in Sources */,
+				FAA44FD5244DF781001748DB /* RoundedTextField.swift in Sources */,
 				FAF26B872421710F006935A2 /* SignUpViewController.swift in Sources */,
 				FAE15B9024228DE400362B4D /* Storyboarded.swift in Sources */,
+				FAA44FD2244DF6CC001748DB /* Color.swift in Sources */,
+				FAA44FD7244DF862001748DB /* NavigationController.swift in Sources */,
+				FAA44FD0244DF6A4001748DB /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
