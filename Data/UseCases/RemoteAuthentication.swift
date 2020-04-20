@@ -11,7 +11,8 @@ public final class RemoteAuthentication {
     }
 
     public func auth(authenticationModel: AuthenticationModel, completion: @escaping (Authentication.Result) -> Void) {
-        httpClient.post(to: url, with: authenticationModel.toData()) { result in
+        httpClient.post(to: url, with: authenticationModel.toData()) { [weak self] result in
+            guard self != nil else { return }
             switch result {
             case .success(let data):
                 if let model: AccountModel = data?.toModel() {
