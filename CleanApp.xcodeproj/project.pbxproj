@@ -63,6 +63,7 @@
 		FA9EB9E0244E33B300A230AB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EB9DF244E33B300A230AB /* Login.storyboard */; };
 		FA9EB9E3244E343800A230AB /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EB9E2244E343800A230AB /* LoginViewControllerTests.swift */; };
 		FA9EB9E5244E347F00A230AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EB9E4244E347F00A230AB /* LoginViewController.swift */; };
+		FA9EB9E6244E371C00A230AB /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FAA44FC1244DECD5001748DB /* ApiUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC0244DECD5001748DB /* ApiUrlFactory.swift */; };
 		FAA44FC4244DED43001748DB /* AlamofireAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC3244DED43001748DB /* AlamofireAdapterFactory.swift */; };
 		FAA44FC8244DEE35001748DB /* EmailValidatorAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA44FC7244DEE35001748DB /* EmailValidatorAdapterFactory.swift */; };
@@ -1889,6 +1890,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9EB9E6244E371C00A230AB /* TextExtensions.swift in Sources */,
 				FA9EB9E3244E343800A230AB /* LoginViewControllerTests.swift in Sources */,
 				FAF26B7824216E46006935A2 /* SignUpViewControllerTests.swift in Sources */,
 				FAF26B9024226159006935A2 /* TestExtensions.swift in Sources */,
