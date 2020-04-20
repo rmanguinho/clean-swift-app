@@ -73,6 +73,8 @@
 		FAA92B72242BCAFB00DF55D0 /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; };
 		FAA92B73242BCAFB00DF55D0 /* Validation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAE15BB724229C2400362B4D /* Validation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAB733AA244E1335008E816D /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB733A9244E1335008E816D /* Authentication.swift */; };
+		FAB733AC244E13B6008E816D /* RemoteAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB733AB244E13B6008E816D /* RemoteAuthenticationTests.swift */; };
+		FAB733AE244E146E008E816D /* RemoteAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB733AD244E146E008E816D /* RemoteAuthentication.swift */; };
 		FAE0B4A0241AB9840096A456 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */; };
 		FAE0B4A4241ABA330096A456 /* UrlProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */; };
 		FAE0B4AC241ACA2E0096A456 /* AddAccountIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0B4AB241ACA2E0096A456 /* AddAccountIntegrationTests.swift */; };
@@ -401,6 +403,8 @@
 		FAA92B68242BCA1600DF55D0 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		FAA92B6C242BCA6F00DF55D0 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		FAB733A9244E1335008E816D /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		FAB733AB244E13B6008E816D /* RemoteAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAuthenticationTests.swift; sourceTree = "<group>"; };
+		FAB733AD244E146E008E816D /* RemoteAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAuthentication.swift; sourceTree = "<group>"; };
 		FAE0B49F241AB9840096A456 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		FAE0B4A3241ABA330096A456 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
 		FAE0B4A9241ACA2E0096A456 /* UseCasesIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseCasesIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -761,6 +765,7 @@
 			isa = PBXGroup;
 			children = (
 				FA4E1FAF241704B4002DE683 /* RemoteAddAccount.swift */,
+				FAB733AD244E146E008E816D /* RemoteAuthentication.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -778,6 +783,7 @@
 			isa = PBXGroup;
 			children = (
 				FA4E1F9D2416F772002DE683 /* RemoteAddAccountTests.swift */,
+				FAB733AB244E13B6008E816D /* RemoteAuthenticationTests.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -1704,6 +1710,7 @@
 				FA4E1FB2241704EB002DE683 /* HttpPostClient.swift in Sources */,
 				FA4E1FBF24171144002DE683 /* ExtensionHelpers.swift in Sources */,
 				FA4E1FBC241709B2002DE683 /* HttpError.swift in Sources */,
+				FAB733AE244E146E008E816D /* RemoteAuthentication.swift in Sources */,
 				FA4E1FB0241704B4002DE683 /* RemoteAddAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1717,6 +1724,7 @@
 				FA4E1FC224171A4B002DE683 /* TextExtensions.swift in Sources */,
 				FA4E1FC924171B25002DE683 /* AccountModelFactory.swift in Sources */,
 				FA4E1F9E2416F772002DE683 /* RemoteAddAccountTests.swift in Sources */,
+				FAB733AC244E13B6008E816D /* RemoteAuthenticationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
