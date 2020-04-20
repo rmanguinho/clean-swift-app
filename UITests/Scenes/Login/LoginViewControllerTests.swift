@@ -7,6 +7,10 @@ class LoginViewControllerTests: XCTestCase {
     func test_loading_is_hidden_on_start() {
         XCTAssertEqual(makeSut().loadingIndicator?.isAnimating, false)
     }
+
+    func test_sut_implements_loadingView() {
+        XCTAssertNotNil(makeSut() as LoadingView)
+    }
 }
 
 extension LoginViewControllerTests {
