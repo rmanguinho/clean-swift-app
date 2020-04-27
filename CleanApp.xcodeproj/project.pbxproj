@@ -12,6 +12,8 @@
 		FA008E93244E4FB3002511B0 /* SignUpControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA008E92244E4FB3002511B0 /* SignUpControllerFactory.swift */; };
 		FA008E94244E501F002511B0 /* AuthenticationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBB4244E267A00C9C9A5 /* AuthenticationSpy.swift */; };
 		FA08D5202457154400F90662 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA08D51F2457154400F90662 /* Welcome.storyboard */; };
+		FA08D5232457172600F90662 /* WelcomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08D5222457172600F90662 /* WelcomeViewControllerTests.swift */; };
+		FA08D5252457184000F90662 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08D5242457184000F90662 /* WelcomeViewController.swift */; };
 		FA2B192D242BD852007DA092 /* RequiredFieldValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B192C242BD852007DA092 /* RequiredFieldValidationTests.swift */; };
 		FA2B1931242BDB84007DA092 /* RequiredFieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B1930242BDB84007DA092 /* RequiredFieldValidation.swift */; };
 		FA2B1932242BDC2F007DA092 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
@@ -360,6 +362,8 @@
 		FA008E90244E4F89002511B0 /* RemoteAuthenticationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteAuthenticationFactory.swift; sourceTree = "<group>"; };
 		FA008E92244E4FB3002511B0 /* SignUpControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpControllerFactory.swift; sourceTree = "<group>"; };
 		FA08D51F2457154400F90662 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		FA08D5222457172600F90662 /* WelcomeViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewControllerTests.swift; sourceTree = "<group>"; };
+		FA08D5242457184000F90662 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FA2B192C242BD852007DA092 /* RequiredFieldValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidationTests.swift; sourceTree = "<group>"; };
 		FA2B1930242BDB84007DA092 /* RequiredFieldValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidation.swift; sourceTree = "<group>"; };
 		FA2B1935242BDCCA007DA092 /* CompareFieldsValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareFieldsValidationTests.swift; sourceTree = "<group>"; };
@@ -592,6 +596,15 @@
 			isa = PBXGroup;
 			children = (
 				FA08D51F2457154400F90662 /* Welcome.storyboard */,
+				FA08D5242457184000F90662 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FA08D5212457171600F90662 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FA08D5222457172600F90662 /* WelcomeViewControllerTests.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -1201,6 +1214,7 @@
 		FAF26B8D24226119006935A2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA08D5212457171600F90662 /* Welcome */,
 				FA9EB9E1244E342D00A230AB /* Login */,
 				FAF26B8B242260DC006935A2 /* SignUp */,
 			);
@@ -1901,6 +1915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA08D5252457184000F90662 /* WelcomeViewController.swift in Sources */,
 				FAE15B8E24228D0F00362B4D /* UIViewControllerExtensions.swift in Sources */,
 				FAA44FD5244DF781001748DB /* RoundedTextField.swift in Sources */,
 				FAF26B872421710F006935A2 /* SignUpViewController.swift in Sources */,
@@ -1918,6 +1933,7 @@
 			files = (
 				FA9EB9E6244E371C00A230AB /* TextExtensions.swift in Sources */,
 				FA9EB9E3244E343800A230AB /* LoginViewControllerTests.swift in Sources */,
+				FA08D5232457172600F90662 /* WelcomeViewControllerTests.swift in Sources */,
 				FAF26B7824216E46006935A2 /* SignUpViewControllerTests.swift in Sources */,
 				FAF26B9024226159006935A2 /* TestExtensions.swift in Sources */,
 			);
