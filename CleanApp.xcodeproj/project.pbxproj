@@ -57,7 +57,7 @@
 		FA4E46E52425600A0022CD9C /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B39242146AD006935A2 /* TestFactories.swift */; };
 		FA4E46E82425649A0022CD9C /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E46E72425649A0022CD9C /* MainQueueDispatchDecorator.swift */; };
 		FA63DBAE244E248300C9C9A5 /* LoginPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBAD244E248300C9C9A5 /* LoginPresenterTests.swift */; };
-		FA63DBB1244E251C00C9C9A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBB0244E251C00C9C9A5 /* LoginViewModel.swift */; };
+		FA63DBB1244E251C00C9C9A5 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBB0244E251C00C9C9A5 /* LoginRequest.swift */; };
 		FA63DBB3244E255800C9C9A5 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBB2244E255800C9C9A5 /* LoginPresenter.swift */; };
 		FA63DBB5244E267A00C9C9A5 /* AuthenticationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DBB4244E267A00C9C9A5 /* AuthenticationSpy.swift */; };
 		FA8752C9241839EE00EB759B /* Infra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8752C0241839EE00EB759B /* Infra.framework */; };
@@ -118,7 +118,7 @@
 		FAF26B21242113F9006935A2 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC124171A4B002DE683 /* TextExtensions.swift */; };
 		FAF26B2424212E8E006935A2 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E1FC824171B25002DE683 /* AccountModelFactory.swift */; };
 		FAF26B2624213503006935A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2524213503006935A2 /* LoadingView.swift */; };
-		FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B28242143F0006935A2 /* SignUpViewModel.swift */; };
+		FAF26B29242143F0006935A2 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B28242143F0006935A2 /* SignUpRequest.swift */; };
 		FAF26B2F2421456D006935A2 /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */; };
 		FAF26B35242145CF006935A2 /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B34242145CF006935A2 /* AddAccountSpy.swift */; };
 		FAF26B372421461B006935A2 /* LoadingViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF26B362421461B006935A2 /* LoadingViewSpy.swift */; };
@@ -409,7 +409,7 @@
 		FA4E46DA24252FA30022CD9C /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		FA4E46E72425649A0022CD9C /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		FA63DBAD244E248300C9C9A5 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
-		FA63DBB0244E251C00C9C9A5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FA63DBB0244E251C00C9C9A5 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		FA63DBB2244E255800C9C9A5 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		FA63DBB4244E267A00C9C9A5 /* AuthenticationSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationSpy.swift; sourceTree = "<group>"; };
 		FA8752C0241839EE00EB759B /* Infra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Infra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -455,7 +455,7 @@
 		FAE15C2E2422A81B00362B4D /* MainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE15C342422A81B00362B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF26B2524213503006935A2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		FAF26B28242143F0006935A2 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FAF26B28242143F0006935A2 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
 		FAF26B2E2421456D006935A2 /* AlertViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSpy.swift; sourceTree = "<group>"; };
 		FAF26B312421459C006935A2 /* EmailValidatorSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorSpy.swift; sourceTree = "<group>"; };
 		FAF26B34242145CF006935A2 /* AddAccountSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountSpy.swift; sourceTree = "<group>"; };
@@ -915,7 +915,7 @@
 		FA63DBAF244E251100C9C9A5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				FA63DBB0244E251C00C9C9A5 /* LoginViewModel.swift */,
+				FA63DBB0244E251C00C9C9A5 /* LoginRequest.swift */,
 				FA63DBB2244E255800C9C9A5 /* LoginPresenter.swift */,
 			);
 			path = Login;
@@ -1115,7 +1115,7 @@
 			isa = PBXGroup;
 			children = (
 				FA488E4A241D472200A37153 /* SignUpPresenter.swift */,
-				FAF26B28242143F0006935A2 /* SignUpViewModel.swift */,
+				FAF26B28242143F0006935A2 /* SignUpRequest.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -1762,8 +1762,8 @@
 				FA488E4B241D472200A37153 /* SignUpPresenter.swift in Sources */,
 				FAF26B2624213503006935A2 /* LoadingView.swift in Sources */,
 				FA63DBB3244E255800C9C9A5 /* LoginPresenter.swift in Sources */,
-				FA63DBB1244E251C00C9C9A5 /* LoginViewModel.swift in Sources */,
-				FAF26B29242143F0006935A2 /* SignUpViewModel.swift in Sources */,
+				FA63DBB1244E251C00C9C9A5 /* LoginRequest.swift in Sources */,
+				FAF26B29242143F0006935A2 /* SignUpRequest.swift in Sources */,
 				FA488E53241D479F00A37153 /* AlertView.swift in Sources */,
 				FAA92B69242BCA1600DF55D0 /* Validation.swift in Sources */,
 			);
